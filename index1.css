@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 75px;
+    background-color: rgb(240, 246, 247);
+    position: sticky;
+    top: 0%;
+    margin-top: 0px;
+}
+.nav-links{
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+li, a {
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    padding: 10px;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px,20px;
+}
+.nav-links li a:hover{
+    color: red;
+}
+.nav-links button{
+    border: none;
+    font-size: 15px;
+    padding: 9px 20px;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    background-image: url(https://cdn.pixabay.com/photo/2021/04/27/18/56/sunset-6212218_1280.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h4{
+    margin-bottom: 300px;
+}
+
+.title h1{
+    font-size: 55px;
+}
+
+.title p{
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+form.search input{
+    border: 3px solid blue;
+}
+
+.search input {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 70%;
+    background: white;
+}
+
+.images{
+    display: flex;
+    width: 48%;
+    margin-top: 10px;
+}
+.images img{
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 5px;
+    transition: 2s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.btn{
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 10px 40px;
+    background-color: chartreuse;
+    font-weight: bolder;
+    margin-left: 40%;
+}
+
+.vid{
+    margin-top: 30px;
+    padding: 25px 25px;
+}
+
+.tex{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+.tex p{
+    margin: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+.flex1{
+    height: 250px;
+    width: 300px;
+    background-color: springgreen;
+    border-radius: 10px;
+}
+.flex2{
+    height: 250px;
+    width: 300px;
+    background-color: springgreen;
+    border-radius: 10px;
+}
+.flex3{
+    height: 250px;
+    width: 300px;
+    background-color: springgreen;
+    border-radius: 10px;
+}
+h2{
+    margin-top: 20px;
+}
+.btn1{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.btn1:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
